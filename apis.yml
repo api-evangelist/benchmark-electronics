@@ -1,0 +1,7 @@
+aid: benchmark-electronics
+url: https://raw.githubusercontent.com/api-evangelist/benchmark-electronics/refs/heads/main/apis.yml
+modified: '2026-03-23'
+apis: []
+common:
+  - type: Website
+    url: https://www.benchmark-electronics.com
