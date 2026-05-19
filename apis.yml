@@ -27,6 +27,8 @@ tags:
   - Supply Chain
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/benchelec
   - type: Website
     url: https://www.bench.com
   - type: Blog
