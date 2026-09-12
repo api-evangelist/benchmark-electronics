@@ -2,23 +2,21 @@
   "repo": "benchmark-electronics",
   "feeds": [
     {
-      "source": "https://www.bench.com/setting-the-benchmark/rss.xml",
-      "feed_url": "https://www.bench.com/setting-the-benchmark/rss.xml",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "undetermined",
-      "nature_basis": null
-    },
-    {
       "source": "https://www.bench.com",
       "feed_url": "https://www.bench.com",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://www.bench.com/setting-the-benchmark/rss.xml",
+      "feed_url": "https://www.bench.com/setting-the-benchmark/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 14,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
