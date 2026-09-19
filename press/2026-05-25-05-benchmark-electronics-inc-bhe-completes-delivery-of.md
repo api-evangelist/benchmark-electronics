@@ -1,7 +1,9 @@
 ---
 title: Benchmark Electronics Inc (BHE) Completes Delivery of ...
 url: https://www.gurufocus.com/news/3052894/benchmark-electronics-inc-bhe-completes-delivery-of-advanced-surveillance-systems-for-us-government-bhe-stock-news
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Benchmark Electronics" press release artificial intelligence'
 position: 5
 source: serpapi-google

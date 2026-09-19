@@ -1,0 +1,50 @@
+generated: '2026-09-19'
+method: probed
+source: live HTTP probes of every host the record knows (registrable domain + www); no API,
+  docs, developer, console or MCP host exists (api./docs./developer./developers.bench.com all
+  fail to resolve, and apis[] is empty)
+hit_count: 0
+note: >-
+  Every /.well-known/ path returned a real 404 (the HubSpot CMS 404 template, text/html) on
+  www.bench.com; the apex bench.com answers 301 to www.bench.com for every path, which then 404s.
+  No WellKnown or SecurityTxt pointer is emitted because nothing was served. Benchmark
+  Electronics is an electronics manufacturing services company with no developer program, so
+  there is no API, docs or MCP host to extend the probe to.
+hosts:
+- host: https://www.bench.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://bench.com
+  note: 301 permanent redirect to https://www.bench.com for every path; the target 404s
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/oauth-protected-resource
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+  - path: /.well-known/agent-card.json
+    status: 301
+  - path: /.well-known/agent.json
+    status: 301

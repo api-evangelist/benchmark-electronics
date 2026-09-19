@@ -24,7 +24,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 created: '2026-03-23'
-modified: '2026-04-19'
+modified: '2026-09-19'
 type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/benchmark-electronics.png
 specificationVersion: '0.23'
@@ -57,7 +57,7 @@ common:
   - type: Website
     url: https://www.bench.com
   - type: Blog
-    url: https://www.bench.com/blog
+    url: https://www.bench.com/setting-the-benchmark
     title: Setting the Benchmark Blog
   - type: Features
     data:
@@ -118,6 +118,72 @@ common:
           Design and manufacturing of advanced computing systems, including
           liquid-cooled computing infrastructure and high-performance processing
           platforms for data center and edge applications.
+  - type: LLMsTxt
+    url: llms/benchmark-electronics-llms.txt
+    title: llms.txt (served at https://www.bench.com/llms.txt -> /hubfs/llms.txt)
+  - type: PrivacyPolicy
+    url: https://www.bench.com/privacy-policy
+  - type: TermsOfService
+    url: https://www.bench.com/website-user-agreement
+    title: Website User Agreement
+  - type: Leadership
+    url: https://www.bench.com/leadership-team
+  - type: Support
+    url: https://www.bench.com/contact
+    title: Contact Us
+  - type: Careers
+    url: https://www.bench.com/careers/jobs
+  - type: Compliance
+    url: https://www.bench.com/certifications-registrations
+    title: Certifications & Registrations (ISO 9001/13485/14001/45001, AS9100, IATF 16949, TL 9000, Nadcap, MedAccred, FDA/QMSR, ITAR)
+  - type: Newsroom
+    url: https://ir.bench.com/news-releases/
+    title: News Releases (investor relations host; Cloudflare JS challenge to crawlers)
+  - type: Investors
+    url: https://ir.bench.com/
+  - type: GlobalPrivacyControl
+    url: regulatory/benchmark-electronics-regulatory-posture.yml
+  - type: DataSubjectRequest
+    url: regulatory/benchmark-electronics-regulatory-posture.yml
+  - type: RegulatoryPosture
+    url: regulatory/benchmark-electronics-regulatory-posture.yml
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-19'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Benchmark Electronics is an electronics manufacturing services (EMS) company whose only
+    web presence is a HubSpot marketing site at www.bench.com: the sitemap lists 1,782 URLs
+    (capabilities, markets, sites, case studies, blog, careers, legal) and not one developer,
+    API or documentation page; /developers, /api, /openapi.json, /swagger.json and /graphql all
+    return real 404s, no api./docs./developer. subdomain resolves, every /.well-known/ path
+    404s, its GitHub orgs (BenchmarkElectronics - 15 undescribed scratch repos; Benchmark-Electronics
+    - zero public repos) publish no client code, and the one machine-readable file it serves is an
+    llms.txt describing manufacturing capabilities.
+  evidence:
+  - url: https://www.bench.com/
+    status: 200
+  - url: https://www.bench.com/sitemap.xml
+    status: 200
+  - url: https://www.bench.com/developers
+    status: 404
+  - url: https://www.bench.com/api
+    status: 404
+  - url: https://www.bench.com/openapi.json
+    status: 404
+  - url: https://www.bench.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.bench.com/hubfs/llms.txt
+    status: 200
+  - url: https://api.github.com/users/Benchmark-Electronics
+    status: 200
+  - url: https://ir.bench.com/news-releases/
+    status: 403
+  checked: '2026-09-19'

@@ -1,7 +1,9 @@
 ---
 title: Benchmark Completes Delivery of the Next Phase of High- ...
 url: https://www.businesswire.com/news/home/20250811415049/en/Benchmark-Completes-Delivery-of-the-Next-Phase-of-High-Tech-Surveillance-Solutions-for-U.S.-Customs-and-Border-Protection
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Benchmark Electronics" press release artificial intelligence'
 position: 1
 source: serpapi-google

@@ -1,0 +1,59 @@
+generated: '2026-09-19'
+method: searched
+probe: true
+source: https://www.bench.com/policies-and-disclosures
+note: >-
+  Benchmark Electronics publishes a Policies and Regulatory Disclosures page linking a
+  Cybersecurity Statement, an Information Security Management Policy, a Code of Conduct,
+  Conflict Minerals, Human Rights and Sustainability policies and Romanian CbCR filings, plus a
+  Certifications and Registrations page naming site-level ISO 9001/13485/14001/45001, AS9100,
+  IATF 16949, TL 9000, Nadcap, MedAccred, FDA/QMSR and ITAR registrations. Of the fourteen
+  horizontal signals this artifact records, two are published with substance: a Global Privacy
+  Control statement and a data-subject-request channel, both inside the Privacy Policy. The
+  Cybersecurity Statement names DFARS/NIST 800-171 and CMMC alignment and formal incident
+  response protocols but states no notification SLA, so incident_notification is not recorded.
+  No accessibility conformance report, subprocessor list, DPA, SBOM, AI transparency, data
+  residency, support-lifetime, age-assurance, notice-and-action, transparency-report or
+  exit-assistance page exists; every conventional path below returned a real 404. There is no
+  developer documentation site to search.
+harvested_from:
+- {artifact: well-known/benchmark-electronics-well-known.yml, result: no security.txt served}
+- {artifact: security/benchmark-electronics-domain-security.yml, result: no policy signal}
+- {artifact: probe-security-programs.py, result: 'vdp=none trust=none'}
+probed:
+- {url: https://www.bench.com/accessibility, status: 404}
+- {url: https://www.bench.com/accessibility/vpat, status: 404}
+- {url: https://www.bench.com/legal/subprocessors, status: 404}
+- {url: https://www.bench.com/legal/dpa, status: 404}
+- {url: https://www.bench.com/privacy/requests, status: 404}
+- {url: https://www.bench.com/transparency, status: 404}
+- {url: https://www.bench.com/security, status: 404}
+- {url: https://www.bench.com/security/sbom, status: 404}
+- {url: https://www.bench.com/ai/transparency, status: 404}
+- {url: https://www.bench.com/legal/report-content, status: 404}
+- {url: https://www.bench.com/privacy-policy, status: 200}
+- {url: https://www.bench.com/policies-and-disclosures, status: 200}
+- {url: https://www.bench.com/certifications-registrations, status: 200}
+- {url: 'https://www.bench.com/hubfs/Policies%20and%20Regulatory%20Disclosures/Benchmark-Cybersecurity-Statement.pdf', status: 200}
+- {url: 'https://www.bench.com/hubfs/Policies%20and%20Regulatory%20Disclosures/Benchmark-Information-Security-Management-Policy.pdf', status: 200}
+signals:
+  global_privacy_control:
+    honored: true
+    url: https://www.bench.com/privacy-policy
+    statement: >-
+      We honor "Global Privacy Controls" or other universal opt out signals you can set in some
+      browsers where we are required to do so by applicable law.
+    note: >-
+      Published statement in the "Do Not Sell or Share My Personal Information" section of the
+      Privacy Policy; the commitment is qualified to jurisdictions where applicable law requires
+      it, and Do Not Track signals are explicitly not honored. Recorded from the statement only,
+      never from a Sec-GPC header probe.
+  data_subject_request:
+    url: https://www.bench.com/privacy-policy
+    contact: privacy@bench.com
+    note: >-
+      "Exercising Your Rights" section: requests to know, access, delete and opt out are
+      submitted by email to privacy@bench.com; California requests are acknowledged within 10
+      days and generally answered within 45 days (stated verbatim as "Generally, we will respond
+      to a California or Texas resident's request within 45 days"). No self-service portal or
+      API endpoint is documented.

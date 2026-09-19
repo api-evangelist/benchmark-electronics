@@ -1,7 +1,9 @@
 ---
 title: 'Benchmark Electronics Q1 2026 slides: upgraded outlook ...'
 url: https://www.investing.com/news/company-news/benchmark-electronics-q1-2026-slides-upgraded-outlook-on-ai-medical-strength-93CH-4647442
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Benchmark Electronics" press release artificial intelligence'
 position: 4
 source: serpapi-google
