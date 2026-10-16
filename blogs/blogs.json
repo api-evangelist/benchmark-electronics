@@ -2,6 +2,13 @@
   "repo": "benchmark-electronics",
   "feeds": [
     {
+      "source": "https://www.bench.com/setting-the-benchmark",
+      "feed_url": "https://www.bench.com/setting-the-benchmark/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
       "source": "https://www.bench.com",
       "feed_url": "https://www.bench.com",
       "title": "",
@@ -16,7 +23,7 @@
       "method": "feed"
     }
   ],
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "post_count": 15,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
