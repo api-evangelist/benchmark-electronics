@@ -1,4 +1,4 @@
-# Benchmark Electronics (benchmark-electronics)
+# Benchmark Electronics
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,57 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Benchmark Electronics, Inc. is an advanced electronics engineering and
-manufacturing services (EMS) company headquartered in Tempe, Arizona. The
-company provides integrated design, engineering, and manufacturing services
-from prototypes to high-volume production, including procurement, logistics,
-and repair. Benchmark serves original equipment manufacturers in defense,
-medical technologies, commercial aerospace, industrial, next-gen
-communications, advanced computing, and semiconductor capital equipment
-markets. The company operates approximately 22 locations in 8 countries with
-around 13,000 employees.
+Benchmark Electronics, Inc. is an advanced electronics engineering and manufacturing services (EMS) company headquartered in Tempe, Arizona. The company provides integrated design, engineering, and manufacturing services from prototypes to high-volume production, including procurement, logistics, and repair. Benchmark serves original equipment manufacturers in defense, medical technologies, commercial aerospace, industrial, next-gen communications, advanced computing, and semiconductor capital equipment markets. The company operates approximately 22 locations in 8 countries with around 13,000 employees.
 
-**URL:** [https://www.bench.com](https://www.bench.com)
+**Areas:** Aerospace · Contract Manufacturing · Defense · Electronics Manufacturing · EMS · Engineering Services · Medical Devices · Supply Chain · Fortune 1000
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Benchmark Electronics on APIs.io
 
-## Tags:
+Everything profiled for Benchmark Electronics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/benchmark-electronics/](https://apis.io/providers/benchmark-electronics/)** — or go straight to one of the APIs or properties below.
 
- - Aerospace, Contract Manufacturing, Defense, Electronics Manufacturing, EMS, Engineering Services, Medical Devices, Supply Chain
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-03-23
-- **Modified:** 2026-04-19
+#### Security (1)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Benchmark Electronics Domain Security](https://apis.io/security/benchmark-electronics/benchmark-electronics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.bench.com)
-- [Setting the Benchmark Blog](https://www.bench.com/blog)
+- [Support](https://www.bench.com/contact)
+- [Blog](https://www.bench.com/setting-the-benchmark)
+- [Compliance](https://www.bench.com/certifications-registrations)
+- [Terms of service](https://www.bench.com/website-user-agreement)
+- [Privacy policy](https://www.bench.com/privacy-policy)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Electronics Design and Engineering | Comprehensive engineering services including electrical design, mechanical design, software engineering, microwave and mmWave design, and test development for complex electronics systems. |
-| Advanced Manufacturing Services | Full-service electronics manufacturing including PCB assembly, microelectronics, system build, mechanical machining, and automation solutions from prototype through high-volume production. |
-| Lifecycle Management | End-to-end product lifecycle services covering new product introduction, supply chain management, aftermarket support, and sustaining engineering to reduce total cost of ownership. |
-| High-Reliability Manufacturing | Specialized manufacturing capabilities for high-reliability applications including ruggedized electronics, space systems, RF and microwave systems, and optics for defense and aerospace markets. |
-| Supply Chain Management | Integrated supply chain services including component procurement, inventory management, and logistics optimization for complex electronics manufacturing programs. |
-| IoT and Connected Devices | Design and manufacturing expertise for connected devices, IoT products, and liquid-cooled computing systems leveraging advanced technologies for next-generation applications. |
+**Kin Score 14.3** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 28.9 |
 
-| Name | Description |
-|------|-------------|
-| Defense Electronics Manufacturing | Design and manufacture of ruggedized electronics, avionics, surveillance systems, and mission-critical defense electronics for military and government programs. |
-| Medical Device Manufacturing | Contract manufacturing for FDA-regulated medical devices, including medical robotics, diagnostic equipment, and therapeutic devices requiring quality management system compliance. |
-| Aerospace Systems | Manufacturing of commercial aerospace electronics, avionics subsystems, and space-rated electronic assemblies for commercial and government space programs. |
-| Industrial Electronics | Electronics manufacturing for industrial automation, process control, and semiconductor capital equipment requiring precision and reliability in demanding environments. |
-| Advanced Computing Hardware | Design and manufacturing of advanced computing systems, including liquid-cooled computing infrastructure and high-performance processing platforms for data center and edge applications. |
+**Agent readiness 0.0** — human-only
 
-## Maintainers
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-**FN:** Kin Lane
+**Regulatory alignment 21.1** — Health
 
-**Email:** kin@apievangelist.com
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/benchmark-electronics/](https://apis.io/providers/benchmark-electronics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Benchmark Electronics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/benchmark-electronics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
